@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+</head>
+
+<body onload="startTime()">
+    <header>
+        <h1>phone emulator by Merijn Koppes</h1>
+    </header>
+    <div class="flexbox-container">
+        <div class="telefoon-container" id="screen1">
+            <div class="telefoon">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <div class="clock lockscreenclock">
+                    </div>
+                    <div class="unlockbutton divlink">
+                        <a href="#screen2">
+
+                        </a>
+                    </div>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="telefoon-container" id="screen2">
+            <div class="telefoon">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="clock topbarclock">
+
+                        </div>
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <div class="row" id="toprow">
+                        <div class="icon divlink" id="notitieicon">
+                            <a href="#screen5">
+
+                            </a>
+                        </div>
+                        <div class="icon divlink" id="feedbackicon">
+                            <a href="#screen4">
+
+                            </a>
+                        </div>
+                        <div class="icon divlink" id="boodschappenicon">
+                            <a href="#screen6"></a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="icon divlink" id="youtubeicon">
+                            <a href="#screen3"></a>
+
+                        </div>
+                        <div class="icon divlink">
+
+                        </div>
+                        <div class="icon divlink">
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="icon divlink">
+
+                        </div>
+                        <div class="icon divlink">
+
+                        </div>
+                        <div class="icon divlink">
+
+                        </div>
+
+                    </div>
+                    <div class="row" id="bottomrow">
+                        <div class="icon divlink">
+
+                        </div>
+                        <div class="icon divlink">
+                            <div class="lockbutton divlink">
+                                <a href="#screen1">
+
+                                </a>
+                            </div>
+                        </div>
+                        <div class="icon">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="telefoon-container" id="screen3">
+            <div class="telefoon" id="youtube">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="clock topbarclock">
+
+                        </div>
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <div class="youtubebar">
+                        <div id="youtubelogo">
+
+                        </div>
+                        <div id="searchbar">
+
+                        </div>
+                    </div>
+                    <div class="ytvideodiv">
+                        <iframe class="ytvideo" src="https://www.youtube.com/embed/kF8I_r9XT7A?" frame-border="0">
+                        </iframe>
+                    </div>
+                    <div class="ytvideodiv">
+                        <iframe class="ytvideo" src="https://www.youtube.com/embed/FqfopuQJtY8?">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="telefoon-container" id="screen4">
+            <div class="telefoon" id="feedback">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="clock topbarclock">
+
+                        </div>
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <h3>Feedback</h3>
+
+                    <div class="container">
+                        <form>
+                            <label for="fname">Voornaam</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                            <label for="lname">Achternaam</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="telefoon-container" id="screen5">
+            <div class="telefoon" id="boodschappenlijst">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="clock topbarclock">
+
+                        </div>
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <h2>Notities</h2>
+                    <table>
+                        <tr>
+                            <th>Product</th>
+                            <th>Inhoud</th>
+                            <th>Prijs</th>
+                        </tr>
+                        <tr>
+                            <td>Glorix Toiletreiniger bleek</td>
+                            <td>750ml</td>
+                            <td>€1,49</td>
+                        </tr>
+                        <tr>
+                            <td>AH Dikbleek</td>
+                            <td>750ml</td>
+                            <td>€0.78</td>
+                        </tr>
+                        <tr>
+                            <td>Glorix Toiletreiniger o2</td>
+                            <td>750ml</td>
+                            <td>€1,89</td>
+                        </tr>
+                        <tr>
+                            <td>AH Bleek</td>
+                            <td>2000ml</td>
+                            <td>€0,88</td>
+                        </tr>
+                        <tr>
+                            <td>Ajax Eucalyptus allesreiniger</td>
+                            <td>1250ml</td>
+                            <td>€2,99</td>
+                        </tr>
+                        <tr>
+                            <td>Dettol Allesreiniger spray</td>
+                            <td>500ml</td>
+                            <td>€2,99</td>
+                        </tr>
+                        <tr>
+                            <td>Ajax Fete des fleurs</td>
+                            <td>1000ml</td>
+                            <td>€3,45</td>
+                        </tr>
+                        <tr>
+                            <td>AH Schoonmaak- citronella</td>
+                            <td>1000ml</td>
+                            <td>€0,65</td>
+                        </tr>
+                        <tr>
+                            <td>Ecover Allesreiniger</td>
+                            <td>1000ml</td>
+                            <td>€2,69</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="telefoon-container" id="screen6">
+            <div class="telefoon" id="notities">
+                <div class="topbar">
+                    <div class="topbarleft">
+                        <div class="clock topbarclock">
+
+                        </div>
+                        <div class="wifiicon">
+
+                        </div>
+                        <div class="mobiledataicon">
+
+                        </div>
+                    </div>
+                    <div class="notch">
+                        <div class="frontspeaker">
+
+                        </div>
+                        <div class="camera">
+
+                        </div>
+                    </div>
+                    <div class="topbarright">
+                        <div class="batterypercentagediv">
+                            <p class="batterypercentage">
+                                69%
+                            </p>
+                        </div>
+                        <div class="batteryoutline">
+                            <div class="battery">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scherm">
+                    <h2>boodschappenlijstje</h2>
+                    <ol>
+                        <li>kaas</li>
+                        <li>melk</li>
+                        <li>eieren</li>
+                        <li>cocacola</li>
+                    </ol>
+                </div>
+                <div class="homeknop divlink">
+                    <a href="#screen2"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <p>follow me:</p>
+        <hr>
+        <p><a href="https://www.instagram.com/merijn_024/" target="_blank">instagram</a></p>
+        <p><a href="https://www.linkedin.com/in/merijn-koppes-452033226" target="_blank">linkedin</a></p>
+        <p><a href="https://open.spotify.com/user/merijnko?si=33b25a0407dc4314" target="_blank">spotify<a></a></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>

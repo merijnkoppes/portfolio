@@ -1,0 +1,397 @@
+body {
+    width: 100vw;
+    height: 10000vh;
+    margin: 0%;
+    /*overflow: hidden;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.telefoon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/galaxybg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 880px;
+    width: 100%;
+    margin: 0%;
+}
+
+.telefoon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 272px;
+    margin-top: -50px;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 35px;
+    background-color: #63E6FF;
+    box-shadow: 0px 0px 100px 30px #0ff;
+}
+
+.notch {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 25px;
+    width: 40%;
+}
+
+.frontspeaker {
+    display: flex;
+    height: 20%;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 10%;
+    border-radius: 15%;
+    align-self: center;
+    background-color: #222222;
+}
+
+.camera {
+    display: flex;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #222222;
+}
+
+.mobiledataicon {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    background-image: url("../img/mobiledata.png");
+    background-size: 100% 100%;
+}
+
+.wifiicon {
+    height: 20px;
+    width: 20px;
+    background-image: url("../img/wifiicon2.png");
+    background-size: 100% 100%;
+    margin: auto;
+}
+
+.batteryoutline {
+    height: 10px;
+    width: 15px;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+.battery {
+    height: 100%;
+    width: 69%;
+    background-color: white;
+}
+
+.batterypercentagediv {
+    height: 20px;
+    width: 10px;
+    margin: auto;
+}
+
+.batterypercentage {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    color: white;
+    margin-top: 4px;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.topbarright {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.topbarleft {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scherm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 94%;
+    width: 100%;
+    margin: 0%;
+    border-top-right-radius: 2vh;
+    border-top-left-radius: 2vh;
+    /*background-color: antiquewhite;*/
+}
+
+.homeknop {
+    display: flex;
+    margin: 0%;
+    height: 3vh;
+    width: 8vh;
+    border-radius: 2vh;
+    background-color: #949494;
+}
+
+.homeknop:hover {
+    background-color: #686868;
+}
+
+.unlockbutton {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 350px;
+    background-image: url("../img/lock.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.unlockbutton:hover {
+    background-image: url("../img/unlockedlock.png");
+}
+
+.lockbutton {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/unlockedlock.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.lockbutton:hover {
+    background-image: url("../img/lock.png");
+}
+
+.lockscreenclock {
+    display: flex;
+    margin-top: 20%;
+    font-family: 'Josefin Sans';
+    font-size: 70px;
+}
+
+.topbarclock {
+    display: flex;
+    margin-top: auto;
+    margin-left: 6px;
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.icon {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    /*background-color: burlywood;*/
+    margin: auto;
+}
+
+#toprow {
+    margin-top: 60px;
+}
+
+#bottomrow {
+    margin-bottom: 60px;
+}
+
+#youtubeicon {
+    background-image: url("../img/youtubeicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#youtube {
+    background-color: #252525;
+}
+
+.ytvideodiv {
+    display: flex;
+    margin: 0%;
+    height: 180px;
+    width: 100%;
+}
+
+.ytvideo {
+    margin: 0%;
+    height: 100%;
+    width: 99%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+header h1 {
+    font-family: 'Josefin Sans';
+    font-size: 45px;
+    color: white;
+}
+
+footer {
+    width: 100%px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    color: white;
+}
+
+.youtubebar {
+    height: 30px;
+    width: 100%;
+}
+
+#searchbar {
+    height: 25px;
+    width: 60%;
+    border-style: solid;
+    border-color: #494949;
+}
+
+#youtubelogo {
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/youtubeicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+footer p a {
+    color: white;
+}
+
+#feedbackicon {
+    background-image: url("../img/feedbackicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#feedback {
+    background-color: #b3b3b3;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #949494;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #686868;
+}
+
+.container {
+    height: 460px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#notitieicon {
+    background-image: url("../img/notitiesicon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #494949;
+    text-align: left;
+}
+
+tr {
+    background-color: #979797;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#boodschappenicon {
+    background-image: url("../img/boodschappenpng.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
