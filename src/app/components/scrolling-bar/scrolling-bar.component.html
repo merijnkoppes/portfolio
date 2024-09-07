@@ -1,0 +1,9 @@
+<div class="scrolling-container">
+    <div class="item-container" *ngFor="let item of items; let i = index"
+        [ngStyle]="{'left': positions[i] + 'px', 'opacity': visibilities[i]}">
+        <div class="image-wrapper">
+            <img [src]="item.image" alt="Image">
+        </div>
+        <div class="text">{{ item.text }}</div>
+    </div>
+</div>
