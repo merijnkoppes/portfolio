@@ -24,10 +24,33 @@
     </div>
     <div class="section" id="section2">
 
-        <h1>
+        <h1>Bedrijven waarvoor ik heb gewerkt:
         </h1>
+        <div id="bedrijvenbar">
+            <div class="unselectable container info" *ngFor="let werkgever of werkgevers; let i = index">
+                <div class="image-wrapper">
+                    <img height="125px" [src]="werkgever.img">
+                </div>
+                <div class="text-wrapper">
+                    <span class="infotext">{{werkgever.text}}</span>
+                </div>
+            </div>
+        </div>
 
 
 
     </div>
+    <!-- <div id="section2">
+        <h1>Your Heading Here</h1>
+        <div id="bedrijvenbar">
+            <div class="unselectable container info" *ngFor="let werkgever of werkgevers; let i = index">
+                <div class="image-wrapper">
+                    <img height="125px" [src]="werkgever.img">
+                </div>
+                <div class="text-wrapper">
+                    <span class="infotext">{{werkgever.text}}</span>
+                </div>
+            </div>
+        </div>
+    </div> -->
 </body>
