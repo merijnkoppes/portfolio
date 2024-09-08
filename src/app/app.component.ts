@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
-import { ScrollingBarComponent } from './components/scrolling-bar/scrolling-bar.component';
 import { CommonModule } from '@angular/common'; // Import CommonModule
 import { FooterComponent } from './components/footer/footer.component';
 @Component({
@@ -12,7 +11,6 @@ import { FooterComponent } from './components/footer/footer.component';
     RouterOutlet,
     NavbarComponent,
     AboutComponent,
-    ScrollingBarComponent,
     CommonModule,
     FooterComponent,
   ],

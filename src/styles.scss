@@ -5,3 +5,6 @@ body {
   font-family: Oswald;
   color: white;
 }
+.unselectable {
+  user-select: none;
+}
