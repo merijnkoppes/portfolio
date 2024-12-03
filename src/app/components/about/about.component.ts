@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FirebaseStorageService } from '../../services/firebase-storage.service';
+import { CardComponent } from '../shared/card/card.component';
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
 })
@@ -39,6 +40,14 @@ export class AboutComponent {
       img: 'logo-mrsushi.png',
       text: 'Tijdens mijn eerste bijbaan bij MrSushi heb ik op de E-bike bestellingen bezorgd.',
       datum: '',
+    },
+  ];
+  projecten = [
+    {
+      titel: 'HorasClaras',
+      text: 'Ik heb meegewerkt aan de ontwikkeling van HorasClaras, een gratis app voor tijdregistratie en verlofbeheer voor het bedrijf Isvisoft. Deze app stelt bedrijven in staat om de werktijden en vakanties van hun werknemers eenvoudig en efficiënt te beheren. Met functies zoals snelle in- en uitklokking, geautomatiseerde meldingen, gedetailleerde rapportages en geavanceerde beveiligingsmaatregelen, helpt HorasClaras bedrijven om hun administratieve lasten te verminderen en de operationele efficiëntie te verhogen.',
+      img: 'horasclaras.png',
+      link: 'https://isvisoft.com/app-control-horario-gratis/',
     },
   ];
 }

@@ -1,6 +1,7 @@
 <body>
     <div class="section" id="section1">
-        <h1>Hallo! Ik ben Merijn,</h1><br><br>
+        <h2>Hoi, ik ben</h2><br><br>
+        <h1 id="titel">Merijn Koppes</h1>
         <h2>een vierdejaars student Software Development aan het ROC Nijmegen. Ik ben een sportieve en sociale jongen
             die graag samenwerkt met anderen, maar ik kan ook goed zelfstandig werken. Mijn passie binnen de software
             ligt voornamelijk bij web development, waar ik het liefst werk met frameworks zoals Angular.
@@ -8,13 +9,9 @@
             C#,
             Laravel, Angular, NestJS, en SQL. Daarnaast ben ik bekend met het gebruik van Git, Trello, Bitbucket en de
             Agile en SCRUM methodieken.
-        </h2><br><br>
-        <h2>
-            Naast mijn studie en werk heb ik een aantal hobby's die me helpen om een goede balans te vinden tussen werk
-            en ontspanning. Ik hou van fietsen, programmeren, gamen, pc’s monteren, muziek maken (ik speel drum),
-            fotografie, en van de natuur.
-        </h2><br> <br><br>
-        <h2>
+            <!-- </h2><br><br>
+
+        <h2> -->
             Op deze website vind je meer informatie over mijn projecten, vaardigheden en ervaringen. Aarzel niet om
             contact op te nemen als je denkt dat we iets voor elkaar kunnen betekenen!
         </h2>
@@ -22,9 +19,18 @@
 
 
     </div>
-    <div class="section" id="section2">
+    <!-- <hr> -->
 
-        <h1>Bedrijven waarvoor ik heb gewerkt:
+    <div class="section" id="section2">
+        <h1>Projecten waar ik aan heb gewerkt
+        </h1>
+        <app-card *ngFor="let project of projecten; let i = index" [img]="project.img" [text]="project.text"
+            [link]="project.link" [titel]="project.titel"></app-card>
+    </div>
+    <!-- <hr> -->
+    <div class="section" id="section3">
+
+        <h1>Bedrijven waarvoor ik heb gewerkt
         </h1>
         <div id="bedrijvenbar">
             <div class="unselectable container info" *ngFor="let werkgever of werkgevers; let i = index">
@@ -38,7 +44,7 @@
         </div>
 
 
-
     </div>
 
+    <!-- <hr> -->
 </body>
