@@ -7,6 +7,11 @@ footer {
   padding: 10px 0;
   margin-top: 150px;
   font-size: 20px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/footer%2Flayered-peaks-haikei.png?alt=media&token=ba0cf9ce-1c73-4e87-a0ab-59c872b73d83);
+  // background-image: url(https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg);
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image in the div */
 }
 
 #linkscontainer {
@@ -31,3 +36,7 @@ footer {
     margin: 10px;
   }
 }
+
+// img {
+//   width: 100%;
+// }
