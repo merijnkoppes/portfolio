@@ -7,11 +7,6 @@ footer {
   padding: 10px 0;
   margin-top: 150px;
   font-size: 20px;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/footer%2Flayered-peaks-haikei.png?alt=media&token=ba0cf9ce-1c73-4e87-a0ab-59c872b73d83);
-  // background-image: url(https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg);
-  background-size: cover; /* Ensures the image covers the entire div */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image in the div */
 }
 
 #linkscontainer {
@@ -37,6 +32,110 @@ footer {
   }
 }
 
-// img {
-//   width: 100%;
-// }
+svg {
+  animation: moveWave 5s ease-in-out infinite;
+  bottom: -50px !important;
+}
+
+.wave {
+  transform-origin: bottom;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.wave1 {
+  animation: growShrink1 5s infinite ease-in-out alternate;
+}
+
+.wave2 {
+  animation: growShrink2 7s infinite ease-in-out alternate;
+}
+
+.wave3 {
+  animation: growShrink3 6s infinite ease-in-out alternate;
+}
+
+.wave4 {
+  animation: growShrink4 8s infinite ease-in-out alternate;
+}
+
+.wave5 {
+  animation: growShrink5 6.5s infinite ease-in-out alternate;
+}
+
+.wave6 {
+  animation: growShrink6 7.5s infinite ease-in-out alternate;
+}
+
+@keyframes growShrink1 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.05);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growShrink2 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.07);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growShrink3 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.03);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growShrink4 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.08);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growShrink5 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.04);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes growShrink6 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.06);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
