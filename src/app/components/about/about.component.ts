@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FirebaseStorageService } from '../../services/firebase-storage.service';
 import { CardComponent } from '../shared/card/card.component';
+
 @Component({
   selector: 'app-about',
   standalone: true,
