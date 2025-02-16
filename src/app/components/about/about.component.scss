@@ -5,13 +5,23 @@ body {
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px;
 }
 
 h2 {
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 100;
   margin: 0px;
+}
+
+#titel {
+  background: linear-gradient(to right, #c33764, #1d2671);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 120px;
+  margin-bottom: 20px;
+  line-height: 160px;
 }
 
 .section {
@@ -25,6 +35,12 @@ h2 {
 }
 
 #section2 {
+  margin: 400px 0 200px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#section3 {
   width: 80%;
   margin: 400px 0 200px 0;
   display: flex;
@@ -46,10 +62,9 @@ h2 {
 .info {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted black;
 }
 
-/* Tooltip text */
 .info .infotext {
   visibility: hidden;
   opacity: 0;
@@ -60,7 +75,7 @@ h2 {
   padding: 5px 0;
   border-radius: 6px;
   font-weight: 300;
-  /* Position the tooltip text - see examples below! */
+
   position: absolute;
   z-index: 1;
   top: 100%; /* Position below the text */
@@ -69,8 +84,13 @@ h2 {
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .info:hover .infotext {
   visibility: visible;
   opacity: 1;
+}
+
+hr {
+  width: 750px;
+  border-top: 0.5px solid #bbb;
+  margin: 200px 0 200px 0;
 }

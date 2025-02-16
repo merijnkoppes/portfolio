@@ -1,9 +1,12 @@
 body {
   background-color: black;
+  margin: 0;
 }
 * {
-  font-family: Oswald;
+  font-family: Inter;
   color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .unselectable {
   user-select: none;
