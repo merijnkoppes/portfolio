@@ -13,17 +13,17 @@ import { CardComponent } from '../shared/card/card.component';
 export class AboutComponent {
   constructor(private firebaseStorageService: FirebaseStorageService) {}
   werkgevers = [
-    {
-      naam: 'Isvisoft',
-      img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/about%2Fisvisoft.png?alt=media&token=77c3ca53-2db4-475c-9fde-f08f09d824be',
-      text: 'Tijdens mijn stage bij Isvisoft in Spanje heb ik voornamelijk aan human resource management applicaties gewerkt. Deze applicaties zijn met Angular en Nestjs gemaakt.',
-      datum: '',
-    },
-    {
-      naam: 'blikoponline',
-      img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/about%2Fblikoponline-liemers.png?alt=media&token=69d02e5d-2f45-47ff-b71c-f547f2e155fe',
-      text: 'Tijdens mijn stage bij BlikOpOnline (Pascal Lindeman) heb ik gewerkt met het verbeteren van WordPress webshops. Hiervoor heb SEO uitgevoerd, een keuzehulp gemaakt met Javascript en CSS geschreven om de websites er beter uit te laten zien.',
-    },
+    // {
+    //   naam: 'Isvisoft',
+    //   img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/about%2Fisvisoft.png?alt=media&token=77c3ca53-2db4-475c-9fde-f08f09d824be',
+    //   text: 'Tijdens mijn stage bij Isvisoft in Spanje heb ik voornamelijk aan human resource management applicaties gewerkt. Deze applicaties zijn met Angular en Nestjs gemaakt.',
+    //   datum: '',
+    // },
+    // {
+    //   naam: 'blikoponline',
+    //   img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/about%2Fblikoponline-liemers.png?alt=media&token=69d02e5d-2f45-47ff-b71c-f547f2e155fe',
+    //   text: 'Tijdens mijn stage bij BlikOpOnline (Pascal Lindeman) heb ik gewerkt met het verbeteren van WordPress webshops. Hiervoor heb SEO uitgevoerd, een keuzehulp gemaakt met Javascript en CSS geschreven om de websites er beter uit te laten zien.',
+    // },
     {
       naam: 'alround',
       img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-e9a65.appspot.com/o/about%2Falround.png?alt=media&token=46b12e90-4a2e-48d5-a649-f53cb34111cc',
